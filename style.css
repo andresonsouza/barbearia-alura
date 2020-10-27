@@ -94,11 +94,6 @@ footer {
   margin: 20px 0 0;
 }
 
-main {
-  width: 940px;
-  margin: 0 auto;
-}
-
 form {
   margin: 40px 0;
 }
@@ -155,19 +150,22 @@ th {
   padding: 8px 15px;
 }
 
-/* css da página inicial */
-
 .banner {
   width: 100%;
 }
 
 .titulo-principal {
   text-align: center;
-  /* duas vezes o tamanho base - o padrão do navegador é 16px*/
   font-size: 2em;
-  /* dá um espaçamento de uma vez o tamanho da fonte para baixo */
   margin: 0 0 1em;
   clear: left;
+}
+
+.principal {
+  padding: 3em 0;
+  background: #FEFEFE;
+  width: 940px;
+  margin: 0 auto;
 }
 
 .principal p {
@@ -190,6 +188,7 @@ th {
 
 .beneficios {
   padding: 3em 0;
+  background: #888888;
 }
 
 .conteudo-beneficios {
@@ -207,10 +206,6 @@ th {
   line-height: 1.5;
 }
 
-/* :last-child - aletra o último elemento da lista */
-/* :first-child - Pega o primeiro dos itens filhos e altera seu valor */
-/* :nth-child(4) - altera o quarto elemento */
-/* :nth-child(2n) - altera os elementos pares */
 .itens:first-child {
   font-weight: bold;
 }
@@ -220,8 +215,17 @@ th {
 }
 
 .mapa {
-  /* em cria um espaçamento proporcional ao tamanho da fonte */
   padding: 3em 0;
+  background: linear-gradient(#FEFEFE, #888888)
+  /* background: linear-gradient(45deg, orange, blue, red, black); */
+  /* background: linear-gradient(90deg, orange 50%, blue, red, black); */
+  /* background: radial-gradient(orange 50%, blue, red, black); */
+  /* background: linear-gradient(45deg, orange, blue, red, black); */
+}
+
+.mapa-conteudo {
+  width: 940px;
+  margin: 0 auto;
 }
 
 .mapa p {
