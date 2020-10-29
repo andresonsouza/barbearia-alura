@@ -159,11 +159,29 @@ th {
   font-size: 2em;
   margin: 0 0 1em;
   clear: left;
+
+  content: "[";
 }
+
+/* .titulo-principal::fi rst-letter {
+  font-weight: bold;
+} */
+
+/* p::first-line {
+  font-style: italic;
+} */
+
+/* .titulo-principal:before {
+  content: "[ ";
+}
+
+.titulo-principal:after {
+  content: " ]";
+} */
 
 .principal {
   padding: 3em 0;
-  background: #FEFEFE;
+  background: #fefefe;
   width: 940px;
   margin: 0 auto;
 }
@@ -210,13 +228,17 @@ th {
   font-weight: bold;
 }
 
+.itens:before {
+  content: "⭐";
+}
+
 .imagembeneficios {
   width: 60%;
 }
 
 .mapa {
   padding: 3em 0;
-  background: linear-gradient(#FEFEFE, #888888)
+  background: linear-gradient(#fefefe, #888888);
   /* background: linear-gradient(45deg, orange, blue, red, black); */
   /* background: linear-gradient(90deg, orange 50%, blue, red, black); */
   /* background: radial-gradient(orange 50%, blue, red, black); */
