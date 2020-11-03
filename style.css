@@ -159,6 +159,7 @@ th {
   font-size: 2em;
   margin: 0 0 1em;
   clear: left;
+  color: rgba(0,0,0,0.3);
 
   content: "[";
 }
@@ -232,8 +233,14 @@ th {
   content: "⭐";
 }
 
-.imagembeneficios {
+.imagem-beneficios {
   width: 60%;
+  transition: 400ms;
+  opacity: 1;
+}
+
+.imagem-beneficios:hover {
+  opacity: 0.3;
 }
 
 .mapa {
